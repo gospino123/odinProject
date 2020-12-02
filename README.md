@@ -1,27 +1,27 @@
 # odinProject
 Zero to Full-Stack Exploration
 
-## Basics
-### How Course Will Work
-### Intro to Web Dev
-### Gearing Up
-### Join Odin Comm.
-### How Does Web Work
+## ~~Basics~~
+### ~~How Course Will Work~~
+### ~~Intro to Web Dev~~
+### ~~Gearing Up~~
+### ~~Join Odin Comm.~~
+### ~~How Does Web Work~~
 
 ## Installations
-### Overview
+### ~~Overview~~
 ### Prerequisites **(Unfinished)**
-### Text Editors 
-### Command Line Basics
-### Setting Up Git
+### ~~Text Editors~~ 
+### ~~Command Line Basics~~
+### ~~Setting Up Git~~
 
-## Git Basics
-### Intro
-### Basics
-### PROJECT - GIT BASICS
+## ~~Git Basics~~
+### ~~Intro~~
+### ~~Basics~~
+### ~~PROJECT - GIT BASICS~~
 
 ## Front End
-### Intro
+### ~~Intro~~
 ### HTML/CSS Basics
 - FCC Responsive Web Design Projects
   1. Tribute Page
