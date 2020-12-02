@@ -15,10 +15,15 @@ body {
 }
 #img-div {
     border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #image {
     border-radius: 5px;
 }
-#img-caption {}
+#img-caption {
+    text-align: center;
+}
 #tribute-info {}
 #tribute-link {}
