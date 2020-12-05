@@ -15,7 +15,7 @@ body {
 }
 
 #img-div {
-    margin: 0 1em;
+    /* margin: 0 1em; */
 }
 
 #image {
@@ -33,7 +33,7 @@ body {
     margin: 0 auto;
 }
 #tribute-info > p {
-    margin: 5px 1em 0;
+    /* margin: 5px 1em 0; */
     color: rgb(54, 53, 48);
     text-indent: 2em;
 }
