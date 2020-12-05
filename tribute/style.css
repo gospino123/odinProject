@@ -27,7 +27,7 @@ body {
 }
 #img-caption {
     font-size: smaller;
-    text-align: center;
+    text-align: justify;
     max-width: 500px;
     min-width: 140px;
     margin: 0 auto;
