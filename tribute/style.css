@@ -30,6 +30,8 @@ body {
 }
 #img-caption {
     font-size: smaller;
+    /* word-spacing: -1px; */
+    letter-spacing: -1px;
     text-align: justify;
     max-width: 500px;
     min-width: 140px;
@@ -38,6 +40,10 @@ body {
 #tribute-info > p {
     color: rgb(69, 68, 63);
     text-indent: 2em;
+    margin-top: 5px;
+}
+#tribute-info > p:first-child {
+    margin-top: .8em;
 }
 footer {
     margin: 0 1em;
