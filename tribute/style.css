@@ -45,8 +45,12 @@ body {
 #tribute-info > p:first-child {
     margin-top: .8em;
 }
+#tribute-link {
+    display: block;
+    text-align: center;
+}
 footer {
-    margin: 0 1em;
+    margin: 1em;
     display: flex;
     justify-content: center;
 }
