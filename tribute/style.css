@@ -9,7 +9,10 @@ body {
     color: rgb(104, 103, 98)
 }
 #main {
-    margin: 0 1em;
+    margin: 1em 1em 0;
+    padding: 5px;
+    box-shadow: 1px 1px 3px rgba(104, 103, 98, .3), -1px -1px 3px rgba(104, 103, 98, .3);
+    border-radius: 10px;
 }
 
 #title {
@@ -42,9 +45,9 @@ body {
     text-indent: 2em;
     margin-top: 5px;
 }
-#tribute-info > p:first-child {
+/* #tribute-info > p:first-child {
     margin-top: .8em;
-}
+} */
 #tribute-link {
     display: block;
     text-align: center;
