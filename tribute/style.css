@@ -62,6 +62,7 @@ h1 + h2 {
     margin-top: .8em;
 } */
 #tribute-link {
+    display: inline;
     /* display: block;
     text-align: center; */
 }
