@@ -25,13 +25,15 @@ em {
 }
 a:link {
     text-decoration: none;
+    color: rgb(29, 160, 195);
 }
 a:hover, a:focus {
     /* border-radius: 50%; */
     /* border: 2px solid blue; */
     text-shadow: 2px 2px 3px 5px blue;
 }
-a:active {}
+a:active {color: rgb(29, 160, 195);}
+
 h1 + h2 {
     margin: 0 15px;
     text-align: left;
@@ -84,4 +86,11 @@ footer {
     margin: 1em;
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
+}
+footer > a {
+    width: 25px;
+    height: 25px;
+    border: 2px solid red;
+
 }
