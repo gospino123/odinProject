@@ -41,6 +41,7 @@ h1 + h2 {
     margin: 0 15px;
     text-align: left;
     font-weight: 600;
+    font-size: 115%;
 }
 
 #img-div {
