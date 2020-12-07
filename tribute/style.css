@@ -62,8 +62,8 @@ h1 + h2 {
     margin-top: .8em;
 } */
 #tribute-link {
-    display: block;
-    text-align: center;
+    /* display: block;
+    text-align: center; */
 }
 footer {
     margin: 1em;
