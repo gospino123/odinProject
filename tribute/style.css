@@ -23,6 +23,15 @@ em {
     font-weight: 600;
     font-style: normal;
 }
+a:link {
+    text-decoration: none;
+}
+a:hover, a:focus {
+    /* border-radius: 50%; */
+    /* border: 2px solid blue; */
+    text-shadow: 2px 2px 3px 5px blue;
+}
+a:active {}
 h1 + h2 {
     margin: 0 15px;
     text-align: left;
