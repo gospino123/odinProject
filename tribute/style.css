@@ -55,8 +55,8 @@ h1 + h2 {
 #tribute-info > p {
     color: rgb(69, 68, 63);
     text-indent: 2em;
-    margin-top: 10px;
-    padding: 0 .5em;
+    margin-bottom: 10px;
+    padding: 0 .5em 5px;
 }
 /* #tribute-info > p:first-child {
     margin-top: .8em;
