@@ -9,19 +9,24 @@ body {
     color: rgb(104, 103, 98)
 }
 #main {
-    margin: 1em 1em 0;
-    padding: 5px;
+    margin: 15px 15px 0;
     box-shadow: 1px 1px 3px rgba(104, 103, 98, .3), -1px -1px 3px rgba(104, 103, 98, .3);
     border-radius: 10px;
 }
-
 #title {
-    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
     text-align: center;
+    margin-top: .5em;
+}
+
+h1 + h2 {
+    margin: 0 15px;
+    text-align: left;
 }
 
 #img-div {
-    margin: 0 1em;
+    margin: 0 15px;
 }
 
 #image {
@@ -40,10 +45,14 @@ body {
     min-width: 140px;
     margin: 0 auto;
 }
+#tribute-info > p:first-child {
+    padding-top: 5px;
+}
 #tribute-info > p {
     color: rgb(69, 68, 63);
     text-indent: 2em;
-    margin-top: 5px;
+    margin-top: 10px;
+    padding: 0 .5em;
 }
 /* #tribute-info > p:first-child {
     margin-top: .8em;
