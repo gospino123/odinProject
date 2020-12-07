@@ -75,6 +75,11 @@ h1 + h2 {
     /* display: block;
     text-align: center; */
 }
+.fa-spotify {color: rgb(29, 185, 84);}
+.fa-facebook {color: rgb(59, 89, 152);}
+.fa-instagram {color: #3f729b;}
+.fa-apple {color: black;}
+.fa-bandcamp {color: rgb(29, 160, 195);}
 footer {
     margin: 1em;
     display: flex;
