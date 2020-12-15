@@ -6,34 +6,57 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    rgba(0,0,0,.54)
+    color: rgba(0,0,0,.54);
+    margin: 23px 27px;
 }
+
+/* navBar START */
 #navBar {
     /* float: right; */
     /* position: relative; */
     /* justify-content:flex-end; */
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:flex-end;
     min-width: 181px; 
-    font-size: 13px; 
+    font-size: 13px;
+    border: 1px solid red;
 }
-.navitem
+.itemWrapper {
+    border: 1px solid #000;
+    background-color: chartreuse;
+    margin-right: 15px;
+}
+.itemWrapper:nth-child(4) {
+    margin-right: 0;
+}
+/* NAVBAR END */
+
+/* logo START */
 #logo {
     height: 100px;
-    width: 400px;
+    width: 100%;
+    border: 1px solid black;
 }
 #logo img {
     height: 72px;
     width: auto;
     text-align: center;
+    border: 1px dotted black;
 }
-#searchBar
-#searchInput
-.searchButton
-#languages
-#footer
-#country
-#footerBar
-#left
-#right
+/* LOGO END */
+
+/* Search START */
+#searchBar {border: 2px solid red;}
+#searchInput {border: 1px solid yellow;}
+.searchButton {border: 1px dotted black;}
+/* SEARCH END */
+
+#languages {border: 1px solid black;}
+#footer {border: 1px solid black;}
+#country {border: 1px solid black;}
+#footerBar {border: 1px solid black;}
+#left {border: 1px solid black;}
+#right {border: 1px solid black;}
+
+@media (max-width: 380px) {#navBar {display: none;}}
