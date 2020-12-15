@@ -9,24 +9,26 @@ body {
     color: rgba(0,0,0,.54);
     margin: 23px 27px;
 }
-
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
 /* navBar START */
 #navBar {
     /* float: right; */
     /* position: relative; */
     /* justify-content:flex-end; */
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content:flex-end;
     min-width: 181px; 
     font-size: 13px;
-    border: 1px solid red;
 }
 .itemWrapper {
-    border: 1px solid #000;
-    background-color: chartreuse;
+    /* border: 1px solid #000;
+    background-color: chartreuse; */
     margin-right: 15px;
 }
+.itemWrapper {}
 .itemWrapper:nth-child(4) {
     margin-right: 0;
 }
