@@ -15,11 +15,11 @@ body {
 }
 #navContainer {text-align: right;}
 #navBar {
-    display: inline-flex;
     /* float: right; */
     /* position: relative; */
-    align-items: center;
     /* justify-content:flex-end; */
+    display: inline-flex;
+    align-items: center;
     justify-content:space-between;
     min-width: 181px; 
     font-size: 13px; 
