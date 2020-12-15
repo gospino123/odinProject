@@ -8,12 +8,6 @@ body {
     font-size: 14px;
     rgba(0,0,0,.54)
 }
-#center {
-    display: block;
-    margin: 0 auto;
-    min-width: 400px;
-}
-#navContainer {text-align: right;}
 #navBar {
     /* float: right; */
     /* position: relative; */
