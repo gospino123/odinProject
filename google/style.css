@@ -8,9 +8,32 @@ body {
     font-size: 14px;
     rgba(0,0,0,.54)
 }
-#navBar {display: flex; justify-content:right; min-width: 181px; font-size: 13px; margin-top:15px}
+#center {
+    display: block;
+    margin: 0 auto;
+    min-width: 400px;
+}
+#navContainer {text-align: right;}
+#navBar {
+    display: inline-flex;
+    /* float: right; */
+    /* position: relative; */
+    align-items: center;
+    /* justify-content:flex-end; */
+    justify-content:space-between;
+    min-width: 181px; 
+    font-size: 13px; 
+}
 .navitem
-#logo
+#logo {
+    height: 100px;
+    width: 400px;
+}
+#logo img {
+    height: 72px;
+    width: auto;
+    text-align: center;
+}
 #searchBar
 #searchInput
 .searchButton
