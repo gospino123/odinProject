@@ -14,7 +14,7 @@ body {
 a {text-decoration: none; color: inherit;}
 a:hover {text-decoration: underline; opacity: .85;}
 #apps {color: #727272;}
-#apps:hover {color: #000;}
+#apps:hover {color: #000; text-decoration: none;}
 .blue {color: blue;}
 
 /* navBar START */
@@ -29,15 +29,15 @@ a:hover {text-decoration: underline; opacity: .85;}
     min-width: 181px; 
     font-size: 13px;
 }
-.itemWrapper {
+.m-right {
     /* border: 1px solid #000;
     background-color: chartreuse; */
     margin-right: 15px;
 }
-.itemWrapper {}
+/* .itemWrapper {}
 .itemWrapper:nth-child(4) {
     margin-right: 0;
-}
+} */
 /* NAVBAR END */
 
 /* logo START */
