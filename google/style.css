@@ -73,10 +73,12 @@ a:hover {text-decoration: underline; opacity: .85;}
 
 
 /* Search START */
+#searchForm {border: 3px solid red; width: 100vw;}
 #searchBar {
     border: 1px solid #dfe1e5; 
     height: 44px; 
     width: auto; 
+    margin: 0 auto;
     border-radius: 24px; 
     min-width: 336px;
     max-width: 484px;
@@ -88,29 +90,26 @@ a:hover {text-decoration: underline; opacity: .85;}
     height: 20px;
     scale: .8;
     color: #9aa0a6;
-    flex-basis: 0%;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 0 0 0%;
     cursor: default;
+    border: 1px solid greenyellow;
 }
-#input {
-    flex-basis: 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
+input {
+    flex: 1 1 100%;
     font-size: 16px;
     overflow-wrap: break-word;
     font-stretch: 100%;
-    -ms-flex: 1;
-    flex: 1;
+    border: 1px solid orangered;
+    min-width: 280px;
+    width: 100%;
 }
 #clear {
     width: 20px;
     height: 20px;
     color: #80868b;
-    flex-basis: 0%;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 0 0 0%;
     cursor: pointer;
+    border: 1px solid blue;
 }
 /* #searchBar {border: 2px solid red;}
 #searchInput {
