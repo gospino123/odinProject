@@ -9,7 +9,6 @@ body {
     /* color: rgba(0,0,0,.54); */
     color: rgba(0,0,0,.87);
     /* margin: 20px 27px 0px; */
-    margin: 15px 30px 0px;
 }
 a {text-decoration: none; color: inherit;}
 a:hover {text-decoration: underline; opacity: .85;}
@@ -28,6 +27,7 @@ a:hover {text-decoration: underline; opacity: .85;}
     justify-content:flex-end;
     min-width: 181px; 
     font-size: 13px;
+    margin: 15px 30px 0px;
 }
 .m-right {
     /* border: 1px solid #000;
@@ -48,12 +48,13 @@ a:hover {text-decoration: underline; opacity: .85;}
     align-items: center;
     /* row-gap: 20px; */
     row-gap: 30px;
+    margin: 15px 30px 0px;
 }
 
 /* logo START */
 #logo {
     /* height: 100px; */
-    height: 201px;
+    height: 30vh;
     /* border: 1px solid black; */
     /* padding-top: 115px; */
     width: 100%;
@@ -127,7 +128,10 @@ button:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     border: 1px solid #dadce0;
 }
+#m-left {margin-left: 10px;}
 .m-left {margin-left: 10px;}
+
+#lang {font-size: small;}
 /* #searchBar {border: 2px solid red;}
 #searchInput {
     border: 1px solid yellow;
@@ -141,13 +145,38 @@ button:hover {
 
 /* #languages {border: 1px solid black;} */
 
-
+#space {
+    /* height: 40vh; */
+    width: auto;
+}
 /* CENTER END */
 
+footer {background-color: #f2f2f2;}
+.alt-color {color: rgba(0, 0, 0, 0.54);}
+#end {position: relative;}
 #footer {border: 1px solid black;}
-#country {border: 1px solid black;}
-#footerBar {border: 1px solid black;}
-#left {border: 1px solid black;}
-#right {border: 1px solid black;}
+#country {
+    border-top: 1px solid rgb(218, 220, 224);
+    border-bottom: 1px solid rgb(218, 220, 224);
+}
+#links {
+    border-bottom: 1px solid rgb(218, 220, 224);
+}
+#left-side {
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#right-side {
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
 @media (max-width: 380px) {#navBar {display: none;}}
+@media (min-width: 806px) {
+    #left-side {}
+    #right-side {}
+}
