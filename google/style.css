@@ -11,7 +11,7 @@ body {
     /* margin: 20px 27px 0px; */
 }
 a {text-decoration: none; color: inherit;}
-a:hover {text-decoration: underline; opacity: .85;}
+header a:hover {text-decoration: underline; opacity: .85;}
 #apps {color: #727272;}
 #apps:hover {color: #000; text-decoration: none;}
 .blue {color: blue;}
@@ -75,7 +75,7 @@ a:hover {text-decoration: underline; opacity: .85;}
 
 /* Search START */
 #searchForm {width: 100%; min-width: 336px; display: flex; flex-direction: column; align-items: center; row-gap: 28px;}
-#searchForm:hover #searchBar {
+#searchForm:hover  #searchBar:hover {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 #searchBar {
@@ -107,7 +107,11 @@ input {
     border: none;
     /* background: transparent; */
 }
+/* input:active #clear {
+    display: visible;
+} */
 #clear {
+    /* display: none; */
     /* flex: 0 0 0%; */
     width: 20px;
     height: 20px;
@@ -117,6 +121,7 @@ input {
 }
 #buttons {display: flex; justify-content: space-between;}
 button {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     padding: 10px 16px;
@@ -161,18 +166,20 @@ footer {background-color: #f2f2f2;}
 }
 #links {
     border-bottom: 1px solid rgb(218, 220, 224);
+    /* display: flex;
+    justify-content: space-between; */
 }
 #left-side {
     border: 1px solid black;
-    position: absolute;
+    /* position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
 }
 #right-side {
     border: 1px solid black;
-    position: absolute;
+    /* position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
 }
 
 @media (max-width: 380px) {#navBar {display: none;}}
