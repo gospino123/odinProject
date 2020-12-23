@@ -11,7 +11,8 @@ body {
     /* margin: 20px 27px 0px; */
 }
 a {text-decoration: none; color: inherit;}
-header a:hover {text-decoration: underline; opacity: .85;}
+a:hover {text-decoration: underline;}
+header a:hover {opacity: .85;}
 #apps {color: #727272;}
 #apps:hover {color: #000; text-decoration: none;}
 .blue {color: blue;}
@@ -83,10 +84,13 @@ header a:hover {text-decoration: underline; opacity: .85;}
     height: 44px; 
     margin: 0 auto;
     border-radius: 24px; 
+    width: 45%;
     min-width: 336px;
-    max-width: 484px;
+    /* max-width: 484px; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    /* align-items: stretch; */
 }
 #magnify {
     /* flex: 0 0 0%; */
@@ -96,15 +100,21 @@ header a:hover {text-decoration: underline; opacity: .85;}
     color: #9aa0a6;
     cursor: default;
     /* border: 1px solid rgb(110, 131, 78); */
+    padding-left: 8px;
 }
 input {
     /* flex: 1 1 100%; */
+    /* flex-grow: 1; */
+    /* flex: 1; */
+    margin-left: 20px;
     font-size: 16px;
     overflow-wrap: break-word;
     font-stretch: 100%;
-    /* border: 1px solid orangered; */
+    /* outline: 1px solid orangered; */
     min-width: 280px;
     border: none;
+    /* width: 90%; */
+    width: 38vw;
     /* background: transparent; */
 }
 /* input:active #clear {
@@ -118,6 +128,7 @@ input {
     color: #80868b;
     cursor: pointer;
     /* border: 1px solid blue; */
+    margin-right: 10px;
 }
 #buttons {display: flex; justify-content: space-between;}
 button {
@@ -163,6 +174,8 @@ footer {background-color: #f2f2f2;}
 #country {
     border-top: 1px solid rgb(218, 220, 224);
     border-bottom: 1px solid rgb(218, 220, 224);
+    /* position: absolute; */
+    padding: 10px 30px;
 }
 #links {
     border-bottom: 1px solid rgb(218, 220, 224);
@@ -170,18 +183,28 @@ footer {background-color: #f2f2f2;}
     justify-content: space-between; */
 }
 #left-side {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* position: absolute;
     left: 0;
     bottom: 0; */
+    padding: 10px 30px;
+    text-align: center;
 }
 #right-side {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* position: absolute;
     right: 0;
     bottom: 0; */
+    padding: 10px 30px;
+    text-align: center;
 }
 
+#left-side > a, #right-side > a {
+    margin-right: 25px;
+}
+#left-side > a:last-child, #right-side > a:last-child {
+    margin-right: 0px;
+}
 @media (max-width: 380px) {#navBar {display: none;}}
 @media (min-width: 806px) {
     #left-side {}
